@@ -1,0 +1,506 @@
+<!DOCTYPE HTML>
+
+<html class="fade">
+
+<head>
+    <title>Abdul Rehman | Portfolio </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="./favicon.ico" type="image-icon">
+    <meta name="description" content="my Blog">
+    <meta name="keywords" content="Articles,jokes,memes,technolgy article">
+    <meta name="author" content="Abdul Rehman">
+
+</head>
+
+<body>
+
+
+
+    <!-- Nav -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="index.html">Home</a>
+        <a href="myBlog.html">My Blog</a>
+        <a href="AboutMe.html">About Me</a>
+        <a href="contectme.html">Contact me</a>
+
+
+    </div>
+
+    <div id="main">
+        <a class="openbtn" onclick="openNav()"><img src="./images/code.png" width="50px" height="50px"> </a>
+
+        <!-- Banner -->
+
+
+        <!-- One -->
+
+        <style>
+            .fade {
+                -webkit-animation-name: fade;
+                -webkit-animation-duration: 1.5s;
+                animation-name: fade;
+                animation-duration: 1.5s;
+            }
+
+            @-webkit-keyframes fade {
+                from {
+                    opacity: .4
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            @keyframes fade {
+                from {
+                    opacity: .4
+                }
+
+                to {
+                    opacity: 1
+                }
+            }
+
+            .fullscreen-bg {
+                position: fixed;
+                top: -15px;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                overflow: hidden;
+                z-index: -100;
+            }
+
+            .fullscreen-bg__video {
+                position: absolute;
+                top: -21px;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            @media (min-aspect-ratio: 16/9) {
+                .fullscreen-bg__video {
+                    height: 300%;
+                    top: -100%;
+                }
+            }
+
+            @media (max-aspect-ratio: 16/9) {
+                .fullscreen-bg__video {
+                    width: 300%;
+                    left: -100%;
+                    height: 100%;
+                }
+            }
+
+            @media (max-width: 767px) {
+                .fullscreen-bg {
+                    background: url('./assets/video/website\ video.mp4') center center / cover no-repeat;
+                }
+
+
+            }
+
+            @media(max-width:749px) {
+                .strokes {
+                    color: white;
+                    font-size: 30px;
+                    font-weight: bold;
+
+
+                }
+            }
+
+            @media(max-width:749px) {
+                .stroke {
+                    color: rgb(184, 184, 184);
+                    font-size: 20px;
+
+
+                }
+            }
+
+            @media(min-width:750px) {
+                .strokes {
+                    color: white;
+                    font-size: 60px;
+                    font-weight: bold;
+
+                }
+            }
+
+            @media(min-width:750px) {
+                .stroke {
+                    color: rgb(179, 179, 179);
+                    font-size: 50px;
+
+
+                }
+            }
+
+            /* 
+.strokes{
+	
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+.stroke{
+	
+	color: rgb(216, 216, 216);
+	font-size: 50px;
+	
+} */
+            .fl {
+                float: right;
+                margin-bottom: 60px;
+            }
+
+            /* Google Fonts */
+            .css-typing p {
+                border-right: .15em solid orange;
+
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            .css-typing p:nth-child(1) {
+                width: 100%;
+                -webkit-animation: type 2s steps(40, end);
+                animation: type 2s steps(40, end);
+                -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+            }
+
+            .css-typing p:nth-child(2) {
+                width: 100%;
+                opacity: 0;
+                -webkit-animation: type2 2s steps(40, end);
+                animation: type2 2s steps(40, end);
+                -webkit-animation-delay: 2s;
+                animation-delay: 2s;
+                -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+            }
+
+
+
+            @keyframes type {
+                0% {
+                    width: 0;
+                }
+
+                99.9% {
+                    border-right: .15em solid orange;
+                }
+
+                100% {
+                    border: none;
+                }
+            }
+
+            @-webkit-keyframes type {
+                0% {
+                    width: 0;
+                }
+
+                99.9% {
+                    border-right: .15em solid orange;
+                }
+
+                100% {
+                    border: none;
+                }
+            }
+
+            @keyframes type2 {
+                0% {
+                    width: 0;
+                }
+
+                1% {
+                    opacity: 1;
+                }
+
+                99.9% {
+                    border-right: .15em solid orange;
+                }
+
+                100% {
+                    opacity: 1;
+                    border: none;
+                }
+            }
+
+            @-webkit-keyframes type2 {
+                0% {
+                    width: 0;
+                }
+
+                1% {
+                    opacity: 1;
+                }
+
+                99.9% {
+                    border-right: .15em solid orange;
+                }
+
+                100% {
+                    opacity: 1;
+                    border: none;
+                }
+            }
+
+            @keyframes type3 {
+                0% {
+                    width: 0;
+                }
+
+                1% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @-webkit-keyframes type3 {
+                0% {
+                    width: 0;
+                }
+
+                1% {
+                    opacity: 1;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+
+            @keyframes blink {
+                50% {
+                    border-color: transparent;
+                }
+            }
+
+            @-webkit-keyframes blink {
+                50% {
+                    border-color: tranparent;
+                }
+            }
+
+            .red {
+                color: red;
+            }
+        </style>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
+
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+
+            <source src="./assets/video/website video.mp4" type="video/mp4">
+
+        </video>
+    </div>
+
+    <div class="fl">
+        <div>
+
+            <div class="css-typing">
+                <p class="strokes">
+                    Hi, I am <b class="red">Abdul Rehman</b>
+                </p>
+                <p class="stroke">
+                    A Full Stack Developer
+                </p>
+
+            </div>
+
+
+
+            <!-- <h1 class="stroke">
+						<a href="" class="typewrite" data-period="2000" data-type='["A Full Stack App developer" ]'>
+						  <span class="wrap"></span>
+						</a>
+					  </h1> -->
+
+
+        </div>
+
+    </div>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    <br><br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+
+    <section id="two" class="wrapper style3">
+        <div class="inner">
+            <header class="align-center">
+                <p style="font-size: 18px;">Experienced Software developer who has a track record of success creating
+                    Softwares
+                    that are both well-received and commercially viable. Skilled with working as a team and
+                    incorporating input
+                    into projects. Ability to always look for ways to improve upon an already existing app to keep
+                    people
+                    surfing it and enjoying it. Strong eye for detail and tenacity to never quit on something until it
+                    is
+                    absolutely perfect.</p>
+                <h2>Abdul Rehman</h2>
+            </header>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <section id="two" class="wrapper style4">
+        <div class="inner">
+            <header class="align-center">
+                <p style="font-size: 25px;"><ul>Why Me
+                <br>
+                <p style="font-size: 18px;"><li>#Customised Quality Designs.</li>
+                    <li>#24*7 developer Support.</li>
+                   <li> #Fix in your budget.</li>
+                   <li> #5 Months Free Maintenance/Management. </li>
+                    <li>#Life-time backup.</li>
+                   <li> #Search Engine Optimised.</li></ul> </p>
+            </header>
+        </div>
+    </section>
+    <br>
+    <!-- Three -->
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <ul class="icons">
+
+                <li><a href="https://www.linkedin.com/in/abdulrehman043/" target="blank" class="icon fa-linkedin"><span
+                            class="label">Linkedin</span></a></li>
+                <li><a href="https://github.com/abdulrehman043" target="blank" class="icon fa-github"><span
+                            class="label">GitHub</span></a></li>
+
+            </ul>
+        </div>
+        <div class="copyright">
+            Abdul Rehman &copy; 2021
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+
+
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+
+        function homevideo() {
+            if (video.paused) {
+                video.play();
+                btn.innerHTML = "Pause";
+            } else {
+                video.pause();
+                btn.innerHTML = "Play";
+            }
+        }
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "0px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginRight = "0";
+        }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

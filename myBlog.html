@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <body >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="my blogs on variuos topics that i find interesting and want to share with the world">
+	  <meta name="keywords" content="Articles,jokes,memes,technolgy article">
+    <link rel="icon" href="./favicon.ico" type="image-icon">
+  	<meta name="author" content="Abdul Rehman">
+    <title>Abdul Rehman | my Blogs</title>
+    <link rel="stylesheet" href="./2css/style.css">
+   
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./js/index.js"></script>
+    
+  </head>
+  
+
+
+
+  
+ 
+    <div id="mySidebar" class="sidebar">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+			<a href="index.html">Home</a>
+			<a href="myBlog.html">My Blogs</a>
+			<a href="AboutMe.html">About Me</a>
+			<a href="contectme.html">Contact Me</a>
+			
+			
+		  </div>
+		   
+		  <div id="main">
+        <a class="openbtn" onclick="openNav()"><img src="./images/code.png" width="50px" height="50px" > </a>
+        <br>
+        <br>
+
+
+<style>
+
+div.gallery {
+  border: 1px solid #ccc;
+  
+  margin-top: 20px;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #3cc918fc;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+}
+
+.responsive {
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 3px;
+  float: left;
+  width: 265px;
+  height: 300px;
+
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+}
+.card {
+  color: white;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.1s;
+  width: 90%;
+  
+  
+  
+}
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+ margin-left: 20px;
+
+  
+  color: black;
+  height: auto;
+  
+}
+.fl{
+	float: right;
+	
+  margin-bottom: 40px;
+}
+/* Google Fonts */
+.css-typing p {
+  border-right: .15em solid orange;
+  
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 100%;
+  -webkit-animation: type 2s steps(40, end);
+  animation: type 2s steps(40, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 100%;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(40, end);
+  animation: type2 2s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+@media(max-width:749px){
+	.strokes{
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	
+
+	}
+}
+
+@media(max-width:749px){
+	.stroke{
+	color: rgb(184, 184, 184);
+	font-size: 20px;
+	
+
+	}
+}
+@media(min-width:750px){
+	.strokes{
+   
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+
+	}
+}
+
+@media(min-width:750px){
+	.stroke{
+	color: rgb(179, 179, 179);
+	font-size: 50px;
+	
+
+	}
+}
+.red{
+  color: red;
+}
+
+
+
+
+</style>
+
+<div class="fl">
+  
+  <div>
+
+    <div class="css-typing">
+      <p class="strokes">
+       My <b class="red">Blogs</b>
+      </p>
+     
+      
+      </div>
+
+  
+  </div>
+</div>
+  
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <article class="blog-card">
+        <div class="blog-card__background">
+          <div class="card__background--wrapper">
+            <div class="card__background--main" style="background-image: url('./Technology/img/stock3.jpg');">
+              <div class="card__background--layer"></div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-card__head">
+          <span class="date__box">
+            <span class="date__day">11</span>
+            <span class="date__month">JAN</span>
+          </span>
+        </div>
+        <div class="blog-card__info">
+          <h4>How Stock Market works ?</h4>
+      
+          <p>You must have heard about the stock market at least once in your life. But what actually is the stock market? Is it any different from the market in the economy where you do transactions in your day to day life everyday?</p>
+          <a href="./Technology/How_Stock_market_works.html" target="blank" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>READ MORE</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<section class="detail-page">
+  <div class="container mt-5">
+    
+  </div>
+</section>
+<br>
+<br>
+<br>
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-12">
+      <article class="blog-card">
+        <div class="blog-card__background">
+          <div class="card__background--wrapper">
+            <div class="card__background--main" style="background-image: url('./tutorials/Android_development/img/android_studio.JPG');">
+              <div class="card__background--layer"></div>
+            </div>
+          </div>
+        </div>
+        <div class="blog-card__head">
+          <span class="date__box">
+            <span class="date__day">11</span>
+            <span class="date__month">JAN</span>
+          </span>
+        </div>
+        <div class="blog-card__info">
+          <h4>How to convert your website into an android app ?</h4>
+      
+          <p>When you've created your website you also want to publish it as an android app on the playstore or whatever platform you like. Because, most of the world population is using a smartphone, it's the truth that the future of web surfing is totally on the mobile view. So in order to gain more traffic to your website an android app is the best way</p>
+          <a href="./tutorials/Android_development/How_to_convert_your_website_into_an_android_app.html" target="blank" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>READ MORE</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</div>
+
+<section class="detail-page">
+  <div class="container mt-5">
+    
+  </div>
+</section>
+
+
+
+
+<!-- <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/How_Stock_market_works.html">
+      <img src="./Technology/img/stock3.jpg" alt="space" >
+    </a>
+    <div class="desc"><a href="./Technology/How_Stock_market_works.html"><b>How Stock Market works ?</b></a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/Effcect_on_the_economy_due_to_covid-19.html">
+      <img src="./Technology/img/covid2.jpg" alt="space" >
+    </a>
+    <div class="desc"><a href="./Technology/Effcect_on_the_economy_due_to_covid-19.html"><b>Effect on the economy due to covid-19</b></a></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/How_to_measure_distance_in_space.html">
+      <img src="./Technology/img/space.jpg" alt="space" >
+    </a>
+    <div class="desc"><a href="./Technology/How_to_measure_distance_in_space.html"><b>Distance in Space </b></a></div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/How_GPS_Actually_Works.html">
+       <img src="./Technology/img/gps.jpg" alt="GPS" >
+    </a>
+    <div class="desc"><a href="./Technology/How_GPS_Actually_Works.html"><b>How GPS Actually Works?</b></a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/How_Paper_is_Made.html">
+      <img src="./Technology/img/paper.jpeg">
+    </a>
+    <div class="desc"><a href="./Technology/How_Paper_is_Made.html"><b>How Paper is Made</b></a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/How_the_ink_of_pens_is_made.html">
+      <img src="./Technology/img/pens.jpg" width="250px" height="150px">
+    </a>
+    <div class="desc"><a href="./Technology/How_the_ink_of_pens_is_made.html"><b>How the ink of pens is made?</b></a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/Can_we_beat_COVID-19_by_technology.html">
+      <img src="./Technology/img/COVID.jpg">
+    </a>
+    <div class="desc"><a href="./Technology/Can_we_beat_COVID-19_by_technology.html">Can we beat Covid-19 ?</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/Can_the_human_brain_be_replaced_by_a_computer.html">
+      <img src="./Technology/img/computer keyboard.jpeg">
+    </a>
+    <div class="desc"><a href="./Technology/Can_the_human_brain_be_replaced_by_a_computer.html">Can the human brain be replaced by a computer</a></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/Why_should_not_you_put_metal_utensils_in_a_Microwave.html">
+      <img src="./Technology/img/microwave.jpg">
+    </a>
+    <div class="desc"><a href="./Technology/Why_should_not_you_put_metal_utensils_in_a_Microwave.html">Why you should not put metal utensils in microwave?</a></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/silicon_chips_in_computer.html">
+      <img src="./Technology/img/silicon_chip.jpg">
+    </a>
+    <div class="desc"><a href="./Technology/silicon_chips_in_computer.html">Silicon Chips in Computer</a></div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/Leonardo_Da_Vinci.html">
+      <img src="./Technology/img/Leonardo Da vinci_1.jpg">
+    </a>
+    <div class="desc"><a href="./Technology/Leonardo_Da_Vinci.html">Leonardo Da Vinci</a></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/Aspirin-A_Wonder_drug_conquers_the_world.html">
+      <img src="./Technology/img/aspirin.jpeg">
+    </a>
+    <div class="desc"><a href="./Technology/Aspirin-A_Wonder_drug_conquers_the_world.html">Aspirin -A Wonder drug conquers the world</a></div>
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="./Technology/origins_of_time.html">
+      <img src="./Technology/img/sandclock.jpg">
+    </a>
+    <div class="desc"><a href="./Technology/origins_of_time.html">Origins of  Time</a></div>
+  </div>
+</div> -->
+
+
+
+
+
+
+      <style>
+
+
+</style>
+
+
+
+
+<script>
+
+var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+
+
+
+
+  function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginRight = "0px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginRight= "0";
+}
+</script>
+
+
+
+  </body>
+</html>

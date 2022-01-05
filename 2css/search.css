@@ -1,0 +1,46 @@
+.searchbar {
+  width: 70%;
+  position: relative;
+
+  display: flex;
+  margin-left: 86%;
+}
+.searching {
+  width: 100%;
+  border: 2px solid black;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+    
+  outline: none;
+  color: green;
+}
+
+.searching:focus{
+  color: black;
+  
+}
+
+.searchicon {
+  width: 40px;
+  height: 33px;
+  border: 1px solid black;
+  background: black;
+  text-align: center;
+  color: #ffffff;
+  
+  cursor: pointer;
+  font-size: 20px;
+}
+.searchicon:focus{
+  outline: none;
+}
+
+
+.change{
+  width: 35%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
